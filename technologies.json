@@ -1,71 +1,438 @@
-{
-  "adonis_js": "AdonisJS",
-  "angular": "Angular",
-  "asp_net": "ASP.NET",
-  "asp_net_core": "AspNetCore",
-  "backbone_js": "Backbone.js",
-  "bootstrap": "Bootstrap",
-  "bulma": "Bulma",
-  "c#" : "C#",
-  "cake_php": "CakePHP",
-  "code_igniter": "CodeIgniter",
-  "d_3_js": "D3.js",
-  "dash": "Dash",
-  "django": "Django",
-  "dot_netty": "DotNetty",
-  "echo": "Echo",
-  "ember_js": "Ember.js",
-  "express_js": "Express.js",
-  "falcon": "Falcon",
-  "feathers_js": "FeathersJS",
-  "fiber": "Fiber",
-  "finch": "Finch",
-  "flask": "Flask",
-  "foundation": "Foundation",
-  "fuel_php": "FuelPHP",
-  "go": "Go",
-  "goji": "Goji",
-  "grails": "Grails",
-  "grape": "Grape",
-  "gwt": "GWT",
-  "hanami": "Hanami",
-  "hibernate": "Hibernate",
-  "html_css": "HTML/CSS",
-  "iris": "Iris",
-  "java": "Java",
-  "javascript": "JavaScript",
-  "jquery": "jQuery",
-  "laravel": "Laravel",
-  "lift": "Lift",
-  "loop_back": "LoopBack",
-  "maria_db": "MariaDB",
-  "martini": "Martini",
-  "material_design": "Material Design",
-  "materialize": "Materialize",
-  "meteor": "Meteor",
-  "microsoft_sql_server": "Microsoft SQL Server",
-  "mongo_db": "MongoDB",
-  "my_sql": "MySQL",
-  "nest_js": "NestJS",
-  "php": "PHP",
-  "postgre_sql": "PostgreSQL",
-  "pure_css": "Pure.css",
-  "python": "Python",
-  "react": "React",
-  "ruby": "Ruby",
-  "ruby_on_rails": "Ruby on Rails",
-  "scala": "Scala",
-  "semantic_ui": "Semantic UI",
-  "slim": "Slim",
-  "spark": "Spark",
-  "spray": "Spray",
-  "spring": "Spring",
-  "sql": "SQL",
-  "sqlite": "SQLite",
-  "symfony": "Symfony",
-  "tailwind_css": "Tailwind CSS",
-  "type_script": "TypeScript",
-  "vue_js": "Vue.js",
-  "yii": "Yii",
-  "zend_framework": "Zend Framework"
-}
+[
+  {
+    "name": "AWS",
+    "icon": "aws.svg"
+  },
+  {
+    "name": "AdonisJS",
+    "icon": "adonis_js.svg"
+  },
+  {
+    "name": "Alpine.js",
+    "icon": "alpine_js.svg"
+  },
+  {
+    "name": "Angular",
+    "icon": "angular.svg"
+  },
+  {
+    "name": "Ansible",
+    "icon": "ansible.svg"
+  },
+  {
+    "name": "Apache",
+    "icon": "apache.svg"
+  },
+  {
+    "name": "Azure",
+    "icon": "azure.svg"
+  },
+  {
+    "name": "Backbone.js",
+    "icon": "backbone_js.svg"
+  },
+  {
+    "name": "Bash",
+    "icon": "bash.svg"
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "bootstrap.svg"
+  },
+  {
+    "name": "C",
+    "icon": "c.svg"
+  },
+  {
+    "name": "C#.sv",
+    "icon": "csharp.vg,"
+  },
+  {
+    "name": "C++",
+    "icon": "c_plus_plus.svg"
+  },
+  {
+    "name": "CSS3",
+    "icon": "css_3.svg"
+  },
+  {
+    "name": "CakePHP",
+    "icon": "cake_php.svg"
+  },
+  {
+    "name": "Capacitor",
+    "icon": "capacitor.svg"
+  },
+  {
+    "name": "CircleCI",
+    "icon": "circle_ci.svg"
+  },
+  {
+    "name": "Cypress",
+    "icon": "cypress.svg"
+  },
+  {
+    "name": "D3.js",
+    "icon": "d3_js.svg"
+  },
+  {
+    "name": "Dart",
+    "icon": "dart.svg"
+  },
+  {
+    "name": "Debian",
+    "icon": "debian.svg"
+  },
+  {
+    "name": "Deno",
+    "icon": "deno.svg"
+  },
+  {
+    "name": "Django",
+    "icon": "django.svg"
+  },
+  {
+    "name": "Docker",
+    "icon": "docker.svg"
+  },
+  {
+    "name": "Doctrine",
+    "icon": "doctrine.svg"
+  },
+  {
+    "name": "Drupal",
+    "icon": "drupal.svg"
+  },
+  {
+    "name": "Electron",
+    "icon": "electron.svg"
+  },
+  {
+    "name": "Elixir",
+    "icon": "elixir.svg"
+  },
+  {
+    "name": "Ember.js",
+    "icon": "ember_js.svg"
+  },
+  {
+    "name": "Express",
+    "icon": "express.svg"
+  },
+  {
+    "name": "Firebase",
+    "icon": "firebase.svg"
+  },
+  {
+    "name": "Flutter",
+    "icon": "flutter.svg"
+  },
+  {
+    "name": "Gatsby",
+    "icon": "gatsby.svg"
+  },
+  {
+    "name": "Ghost",
+    "icon": "ghost.svg"
+  },
+  {
+    "name": "Git",
+    "icon": "git.svg"
+  },
+  {
+    "name": "Google-Cloud",
+    "icon": "google_cloud.svg"
+  },
+  {
+    "name": "GraphQL",
+    "icon": "graphql.svg"
+  },
+  {
+    "name": "HTML5",
+    "icon": "html_5.svg"
+  },
+  {
+    "name": "Handlebars",
+    "icon": "handlebars.svg"
+  },
+  {
+    "name": "Hardhat",
+    "icon": "hardhat.svg"
+  },
+  {
+    "name": "Haskell",
+    "icon": "haskell.svg"
+  },
+  {
+    "name": "Hugo",
+    "icon": "hugo.svg"
+  },
+  {
+    "name": "InfluxDB",
+    "icon": "influx_db.svg"
+  },
+  {
+    "name": "Ionic",
+    "icon": "ionic.svg"
+  },
+  {
+    "name": "Java",
+    "icon": "java.svg"
+  },
+  {
+    "name": "Javascript",
+    "icon": "javascript.svg"
+  },
+  {
+    "name": "Jest",
+    "icon": "jest.svg"
+  },
+  {
+    "name": "jQuery",
+    "icon": "jquery.svg"
+  },
+  {
+    "name": "Kotlin",
+    "icon": "kotlin.svg"
+  },
+  {
+    "name": "Krakenjs",
+    "icon": "krakenjs.svg"
+  },
+  {
+    "name": "Kubernetes",
+    "icon": "kubernetes.svg"
+  },
+  {
+    "name": "LaTeX",
+    "icon": "latex.svg"
+  },
+  {
+    "name": "Laravel",
+    "icon": "laravel.svg"
+  },
+  {
+    "name": "Less.js",
+    "icon": "less_js.svg"
+  },
+  {
+    "name": "Linux",
+    "icon": "linux.svg"
+  },
+  {
+    "name": "Livewire",
+    "icon": "livewire.svg"
+  },
+  {
+    "name": "Lumen",
+    "icon": "lumen.svg"
+  },
+  {
+    "name": "Markdown",
+    "icon": "markdown.svg"
+  },
+  {
+    "name": "Meteor.js",
+    "icon": "meteor_js.svg"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "mongo_db.svg"
+  },
+  {
+    "name": "Mongoose.js",
+    "icon": "mongoose_js.svg"
+  },
+  {
+    "name": "MySQL",
+    "icon": "mysql.svg"
+  },
+  {
+    "name": "NGINX",
+    "icon": "nginx.svg"
+  },
+  {
+    "name": "NPM",
+    "icon": "npm.svg"
+  },
+  {
+    "name": "NW.js",
+    "icon": "nw_js.svg"
+  },
+  {
+    "name": "Nest.js",
+    "icon": "nest_js.svg"
+  },
+  {
+    "name": "Next.js",
+    "icon": "next_js.svg"
+  },
+  {
+    "name": "Node.js",
+    "icon": "node_js.svg"
+  },
+  {
+    "name": "Nuxt-JS",
+    "icon": "nuxt_js.svg"
+  },
+  {
+    "name": "OCaml",
+    "icon": "ocaml.svg"
+  },
+  {
+    "name": "Objective-C",
+    "icon": "objective_c.svg"
+  },
+  {
+    "name": "PHP",
+    "icon": "php.svg"
+  },
+  {
+    "name": "PostgresSQL",
+    "icon": "postgres_sql.svg"
+  },
+  {
+    "name": "Powershell",
+    "icon": "powershell.svg"
+  },
+  {
+    "name": "Processing",
+    "icon": "processing.svg"
+  },
+  {
+    "name": "Python",
+    "icon": "python.svg"
+  },
+  {
+    "name": "Quasar",
+    "icon": "quasar.svg"
+  },
+  {
+    "name": "React",
+    "icon": "react.svg"
+  },
+  {
+    "name": "Redis",
+    "icon": "redis.svg"
+  },
+  {
+    "name": "Redux",
+    "icon": "redux.svg"
+  },
+  {
+    "name": "Ruby",
+    "icon": "ruby.svg"
+  },
+  {
+    "name": "Ruby-on-Rails",
+    "icon": "ruby_on_rails.svg"
+  },
+  {
+    "name": "Rust",
+    "icon": "rust.svg"
+  },
+  {
+    "name": "SQLite",
+    "icon": "sqlite.svg"
+  },
+  {
+    "name": "SSH",
+    "icon": "ssh.svg"
+  },
+  {
+    "name": "Sass",
+    "icon": "sass.svg"
+  },
+  {
+    "name": "Scala",
+    "icon": "scala.svg"
+  },
+  {
+    "name": "Socket.io",
+    "icon": "socket_io.svg"
+  },
+  {
+    "name": "Svelte",
+    "icon": "svelte.svg"
+  },
+  {
+    "name": "Swift",
+    "icon": "swift.svg"
+  },
+  {
+    "name": "Symfony",
+    "icon": "symfony.svg"
+  },
+  {
+    "name": "Tailwind-CSS",
+    "icon": "tailwind_css.svg"
+  },
+  {
+    "name": "Three.js",
+    "icon": "three_js.svg"
+  },
+  {
+    "name": "Travis-CI",
+    "icon": "travis_ci.svg"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "typescript.svg"
+  },
+  {
+    "name": "Ubuntu",
+    "icon": "ubuntu.svg"
+  },
+  {
+    "name": "Vercel",
+    "icon": "vercel.svg"
+  },
+  {
+    "name": "Vite",
+    "icon": "vite.svg"
+  },
+  {
+    "name": "Vite.js",
+    "icon": "vite_js.svg"
+  },
+  {
+    "name": "Vue.js",
+    "icon": "vue_js.svg"
+  },
+  {
+    "name": "WooCommerce",
+    "icon": "woo_commerce.svg"
+  },
+  {
+    "name": "WordPress",
+    "icon": "word_press.svg"
+  },
+  {
+    "name": "XML",
+    "icon": "xml.svg"
+  },
+  {
+    "name": "Xamarin",
+    "icon": "xamarin.svg"
+  },
+  {
+    "name": "YAML",
+    "icon": "yaml.svg"
+  },
+  {
+    "name": "Yarn",
+    "icon": "yarn.svg"
+  },
+  {
+    "name": "Yii-Framework",
+    "icon": "yii_framework.svg"
+  },
+  {
+    "name": "Yuno-Host",
+    "icon": "yuno_host.svg"
+  },
+  {
+    "name": "Zend-Framework",
+    "icon": "zend_framework.svg"
+  }
+]
